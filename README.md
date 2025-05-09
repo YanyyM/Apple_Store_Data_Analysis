@@ -26,8 +26,8 @@ The following SQL queries were developed to answer specific business questions:
 1. **What’s the total revenue by product category?**
 ```sql
 SELECT p.product_name,
-	SUM(o.quantity_ordered) as quantity_sold, -- to add toolstips in tableau
-	AVG(p.price), -- for toolstips tableau
+	SUM(o.quantity_ordered) as quantity_sold, 
+	AVG(p.price), 
 	SUM(p.price * o.quantity_ordered) as revenue
 FROM products p
 LEFT JOIN orders o ON p.product_id = o.product_id
