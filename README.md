@@ -12,6 +12,13 @@ This project demonstrates the end-to-end process of data analysis using SQL for 
 - Tableau Public (data visualization & dashboard)
 - GitHub (project sharing)
 
+  ## 📂 Dataset Source
+
+This project uses publicly available data from Kaggle:
+
+- [Apple Store Data Analysis Dataset on Kaggle](https://www.kaggle.com/datasets/najir0123/sql-beginner-projects-apple-store-data-analysis)
+
+
 ## Data Analysis & Findings
 
 The following SQL queries were developed to answer specific business questions:
